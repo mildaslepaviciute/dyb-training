@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#0b1725">
+    <meta name="description" content="">
+
+    <title>DYB Training</title>
+
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#turinys">Pereiti prie turinio</a>
+
+    <!-- HEADER -->
+
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a class="header__logo" href="index.html" aria-label="DYB Training – pradžia"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 469.93 236.84" fill="currentColor"><path d="M239.37 14.71L239.37 14.71C239.37 14.71 239.37 14.71 239.37 14.71L239.37 14.71 M22.2 236.84L22.2 193.84L0 193.84L0 188.39L49.95 188.39L49.95 193.84L27.82 193.84L27.82 236.84L22.2 236.84 M110.94 236.84L94.64 218L101.99 218L118.36 236.78L118.36 236.84L110.94 236.84M77.08 213.29L110.38 213.29C111.12 213.29 111.76 213.05 112.29 212.55C112.82 212.06 113.09 211.45 113.09 210.73L113.09 196.54C113.09 195.82 112.82 195.2 112.29 194.69C111.76 194.17 111.12 193.91 110.38 193.91L77.08 193.91C76.34 193.91 75.7 194.17 75.17 194.69C74.64 195.2 74.38 195.82 74.38 196.54L74.38 210.73C74.38 211.45 74.64 212.06 75.17 212.55C75.7 213.05 76.34 213.29 77.08 213.29M68.76 236.84L68.76 188.46L110.38 188.46C111.91 188.46 113.31 188.83 114.58 189.57C115.85 190.31 116.86 191.29 117.6 192.5C118.34 193.71 118.71 195.06 118.71 196.54L118.71 210.73C118.71 212.21 118.34 213.56 117.6 214.77C116.86 215.98 115.85 216.96 114.58 217.7C113.31 218.44 111.91 218.81 110.38 218.81L74.38 218.81L74.38 236.84L68.76 236.84 M184.07 213.7L184.07 196.47C184.07 195.75 183.8 195.13 183.27 194.62C182.74 194.1 182.1 193.84 181.36 193.84L148.06 193.84C147.32 193.84 146.68 194.1 146.15 194.62C145.62 195.13 145.35 195.75 145.35 196.47L145.35 213.7L184.07 213.7M139.73 196.47C139.73 194.99 140.1 193.63 140.84 192.4C141.58 191.16 142.59 190.19 143.86 189.47C145.13 188.75 146.53 188.39 148.06 188.39L181.36 188.39C182.89 188.39 184.29 188.75 185.56 189.47C186.83 190.19 187.84 191.16 188.58 192.4C189.32 193.63 189.69 194.99 189.69 196.47L189.69 236.84L184.07 236.84L184.07 219.15L145.35 219.15L145.35 236.84L139.73 236.84L139.73 196.47 M211.89 188.39H217.58V236.84H211.89Z M239.64 236.84L239.64 188.39L247.34 188.39L283.97 230.65L283.97 188.39L289.59 188.39L289.59 236.84L281.89 236.84L245.26 194.58L245.26 236.84L239.64 236.84 M311.66 188.39H317.35V236.84H311.66Z M339.41 236.84L339.41 188.39L347.11 188.39L383.74 230.65L383.74 188.39L389.36 188.39L389.36 236.84L381.66 236.84L345.03 194.58L345.03 236.84L339.41 236.84 M419.06 236.84C417.53 236.84 416.13 236.48 414.86 235.77C413.59 235.05 412.58 234.07 411.84 232.84C411.1 231.61 410.73 230.25 410.73 228.77L410.73 196.47C410.73 194.99 411.1 193.63 411.84 192.4C412.58 191.16 413.59 190.19 414.86 189.47C416.13 188.75 417.53 188.39 419.06 188.39L452.36 188.39C453.89 188.39 455.28 188.75 456.56 189.47C457.83 190.19 458.83 191.16 459.58 192.4C460.31 193.63 460.69 194.99 460.69 196.47L460.69 198.42L455.07 198.42L455.07 196.47C455.07 195.75 454.8 195.13 454.27 194.62C453.74 194.1 453.1 193.84 452.36 193.84L419.06 193.84C418.32 193.84 417.68 194.1 417.15 194.62C416.62 195.13 416.35 195.75 416.35 196.47L416.35 228.77C416.35 229.49 416.62 230.1 417.15 230.62C417.68 231.14 418.32 231.39 419.06 231.39L452.36 231.39C453.1 231.39 453.74 231.14 454.27 230.62C454.8 230.1 455.07 229.49 455.07 228.77L455.07 216.79L442.72 216.79L442.72 211.27L460.69 211.27L460.69 228.77C460.69 230.25 460.31 231.61 459.58 232.84C458.83 234.07 457.83 235.05 456.56 235.77C455.28 236.48 453.89 236.84 452.36 236.84L419.06 236.84 M128.21 48.27C116.72 36.35 99.75 28.11 77.54 22.91C51.38 16.81 25.49 9.18 0 0L0 34.58L31.82 42.61C31.82 42.6 31.82 42.59 31.82 42.59C44.74 45.71 57.73 48.53 70.78 51.04C83.48 53.5 93.17 58.33 99.79 65.57C106.41 72.83 109.8 83.12 109.94 96.81C110.08 110.49 106.9 120.2 100.4 126.16C93.91 132.09 84.28 134.91 71.53 134.28C58.43 133.62 45.34 132.87 32.28 132.05C32.15 107.32 32.02 82.59 31.9 57.85L0 51.6L0 164.1L78.87 164.1C101.19 164.06 117.95 158.67 129.19 148.55C140.43 138.37 145.97 122.25 145.77 99.64C145.57 77.01 139.71 60.21 128.21 48.27 M227.22 93.73C214.09 76.06 200.87 58.11 187.6 39.39C174.25 38.48 160.92 37.17 147.62 35.49C168.83 66.13 189.99 94.07 210.94 121.19C210.98 135.5 211.02 149.8 211.06 164.1L243.51 164.1C243.52 149.72 243.54 135.35 243.55 120.98C264.45 94.21 285.57 66.94 306.79 37.28C293.64 38.65 280.47 39.64 267.28 40.25C253.85 58.57 240.49 76.23 227.22 93.73 M430.52 130.9C427.8 133.98 423.52 135.64 417.67 135.94C398.27 136.94 378.84 137.79 359.39 138.47C359.5 127.79 359.6 117.11 359.71 106.44C379.18 104.9 398.59 103 417.93 100.74C423.77 100.06 428.01 100.96 430.68 103.54C433.35 106.12 434.67 110.58 434.64 116.85C434.6 123.13 433.23 127.84 430.52 130.9M464.56 89.8C460.99 84.15 456.15 80.83 450.02 79.69C450.02 79.32 450.02 78.96 450.02 78.59C460.38 72.7 465.52 60.78 465.53 43.44C465.54 29.45 462.24 19.95 455.63 15.22C449.02 10.43 439.09 10.42 425.71 14.26C393.51 23.47 360.81 30.31 327.87 34.76L327.63 60.32L360.23 55.57C360.23 55.56 360.23 55.56 360.23 55.56C379.02 52.77 397.72 49.35 416.3 45.29C421.31 44.19 425 44.56 427.37 46.48C429.74 48.39 430.91 52.06 430.88 57.43C430.84 62.94 429.65 67.17 427.3 70.05C424.95 72.93 421.21 74.78 416.07 75.61C397.44 78.63 378.73 81.18 359.95 83.26L360.08 70.25L327.5 74.47C327.23 104.34 326.96 134.22 326.68 164.1L427.12 164.1C442.08 164.11 452.97 160.45 459.76 152.62C466.55 144.83 469.93 132.63 469.92 116.52C469.92 104.41 468.13 95.44 464.56 89.8"/></svg></a>
+
+            <nav class="nav" aria-label="Pagrindinis meniu">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#apie">Apie DYB</a></li>
+                    <li class="nav__item--drop">
+                        <a class="nav__link" href="#treniruotes" aria-haspopup="true">Treniruotės <svg class="nav__caret" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+                        <div class="drop">
+                            <a class="drop__link" href="#treniruotes"><span class="drop__title">Grupinės</span><span class="drop__sub">Grupės pagal amžių / lygį</span></a>
+                            <a class="drop__link" href="#treniruotes"><span class="drop__title">Individualios</span><span class="drop__sub">Individualus darbas, pritaikyta programa</span></a>
+                            <a class="drop__link" href="#treniruotes"><span class="drop__title">Su Dr. Dish mašina</span><span class="drop__sub">Metimo treniruotės</span></a>
+                        </div>
+                    </li>
+                    <li class="nav__item--drop">
+                        <a class="nav__link" href="#stovyklos" aria-haspopup="true">Stovyklos <svg class="nav__caret" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+                        <div class="drop">
+                            <a class="drop__link" href="#stovyklos"><span class="drop__title">Žiemos stovykla</span><span class="drop__sub">00.00 – 00.00</span></a>
+                            <a class="drop__link" href="#stovyklos"><span class="drop__title">Pavasario stovykla</span><span class="drop__sub">00.00 – 00.00</span></a>
+                            <a class="drop__link" href="#stovyklos"><span class="drop__title">Vasara – Kaunas</span><span class="drop__sub">Dieninė stovykla mieste</span></a>
+                            <a class="drop__link" href="#stovyklos"><span class="drop__title">Vasara – Daugai</span><span class="drop__sub">Stovykla su nakvyne</span></a>
+                        </div>
+                    </li>
+                    <li><a class="nav__link" href="#treneriai">Treneriai</a></li>
+                    <li><a class="nav__link" href="#merch">Merch</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <a class="header__phone" href="tel:+37060000000" aria-label="Skambinti">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z" fill="currentColor"/></svg>
+                </a>
+                <a class="btn btn--lime btn--sm header__cta" href="#registracija">Registracija</a>
+                <button class="burger" type="button" aria-label="Meniu" aria-expanded="false" aria-controls="mmenu"><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+
+    <div class="mmenu" id="mmenu" hidden>
+        <div class="container mmenu__inner">
+            <nav aria-label="Mobilusis meniu">
+                <a class="mmenu__link" href="#apie">Apie DYB</a>
+                <a class="mmenu__link" href="#treniruotes">Treniruotės</a>
+                <div class="mmenu__sub">
+                    <a href="#treniruotes">Grupinės</a>
+                    <a href="#treniruotes">Individualios</a>
+                    <a href="#treniruotes">Su Dr. Dish mašina</a>
+                </div>
+                <a class="mmenu__link" href="#stovyklos">Stovyklos</a>
+                <div class="mmenu__sub">
+                    <a href="#stovyklos">Žiemos stovykla</a>
+                    <a href="#stovyklos">Pavasario stovykla</a>
+                    <a href="#stovyklos">Vasara – Kaunas</a>
+                    <a href="#stovyklos">Vasara – Daugai</a>
+                </div>
+                <a class="mmenu__link" href="#treneriai">Treneriai</a>
+                <a class="mmenu__link" href="#merch">Merch</a>
+            </nav>
+            <div class="mmenu__foot">
+                <a class="btn btn--lime btn--block" href="#registracija">Registracija</a>
+                <a class="mmenu__contact" href="tel:+37060000000">+370 600 00000</a>
+                <a class="mmenu__contact" href="mailto:el.pastas@dybtraining.com">el.pastas@dybtraining.com</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="turinys">
+
+        <!-- HERO -->
+
+        <section class="hero tex-dark">
+            <div class="hero__type" aria-hidden="true">DYB</div>
+            <div class="container hero__grid">
+                <div class="hero__copy">
+                    <p class="eyebrow eyebrow--lime reveal"><i class="bt" aria-hidden="true"></i>Krepšinio įgūdžių ugdymas</p>
+                    <h1 class="hero__title reveal">
+                        <span><b>D</b>iscover</span>
+                        <span><b>Y</b>our</span>
+                        <span><b>B</b>est</span>
+                    </h1>
+                    <div class="hero__paths reveal">
+                        <a class="path path--lime" href="#treniruotes">
+                            <span class="path__label">Treniruotės</span>
+                            <span class="path__sub">Grupinės · Individualios · Dr. Dish</span>
+                            <svg class="path__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                        </a>
+                        <a class="path path--ghost" href="#stovyklos">
+                            <span class="path__label">Stovyklos</span>
+                            <span class="path__sub">Žiema · Pavasaris · Vasara</span>
+                            <svg class="path__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__visual reveal">
+                    <div class="frame frame--blue">
+                        <img class="hourglass" src="img/group-training.jpg" alt="DYB treneris su vaikais krepšinio salėje" width="1871" height="1055" fetchpriority="high">
+                    </div>
+                    <article class="next">
+                        <p class="next__label">Artimiausia stovykla</p>
+                        <h2 class="next__title">Žiemos stovykla</h2>
+                        <div class="dates">
+                            <div class="date"><span class="date__label">I pamaina</span><span class="date__val">00.00 – 00.00</span></div>
+                            <div class="date"><span class="date__label">II pamaina</span><span class="date__val">00.00 – 00.00</span></div>
+                        </div>
+                        <a class="link-arrow link-arrow--lime" href="#stovyklos">Registruotis</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TICKER -->
+
+        <div class="ticker" aria-hidden="true">
+            <div class="ticker__track">
+                <div class="ticker__group">
+                    <span>Discover your best</span><i class="bt"></i>
+                    <span>Treniruotės</span><i class="bt"></i>
+                    <span>Stovyklos</span><i class="bt"></i>
+                    <span>#DiscoverYourBest</span><i class="bt"></i>
+                    <span>DYB Training</span><i class="bt"></i>
+                </div>
+                <div class="ticker__group">
+                    <span>Discover your best</span><i class="bt"></i>
+                    <span>Treniruotės</span><i class="bt"></i>
+                    <span>Stovyklos</span><i class="bt"></i>
+                    <span>#DiscoverYourBest</span><i class="bt"></i>
+                    <span>DYB Training</span><i class="bt"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- TRENIRUOTĖS -->
+
+        <section class="section section--light" id="treniruotes">
+            <div class="container">
+                <header class="section-head reveal">
+                    <div>
+                        <p class="eyebrow eyebrow--blue"><i class="bt" aria-hidden="true"></i>01 — Treniruotės</p>
+                        <h2 class="h2">Treniruotės</h2>
+                    </div>
+                    <a class="link-arrow" href="#treniruotes">Visos treniruotės</a>
+                </header>
+
+                <div class="grid-3">
+                    <article class="tcard reveal">
+                        <a class="tcard__media" href="#treniruotes" tabindex="-1" aria-hidden="true">
+                            <img src="img/team-fists.jpg" alt="" loading="lazy" width="1871" height="1055">
+                            <span class="tcard__num">01</span>
+                        </a>
+                        <div class="tcard__body">
+                            <h3 class="tcard__title"><a href="#treniruotes">Grupinės</a></h3>
+                            <p class="tcard__lead">Grupės pagal amžių / lygį</p>
+                            <dl class="facts">
+                                <div><dt>Amžius</dt><dd>00–00 m.</dd></div>
+                                <div><dt>Vieta</dt><dd>Adresas</dd></div>
+                                <div><dt>Kaina</dt><dd>nuo 00 €</dd></div>
+                            </dl>
+                            <div class="tcard__actions">
+                                <a class="btn btn--navy" href="#registracija">Registruotis</a>
+                                <a class="link-arrow" href="#treniruotes">Plačiau</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tcard reveal">
+                        <a class="tcard__media" href="#treniruotes" tabindex="-1" aria-hidden="true">
+                            <img src="img/player-dribble.jpg" alt="" loading="lazy" width="1871" height="1055">
+                            <span class="tcard__num">02</span>
+                        </a>
+                        <div class="tcard__body">
+                            <h3 class="tcard__title"><a href="#treniruotes">Individualios</a></h3>
+                            <p class="tcard__lead">Individualus darbas, pritaikyta programa</p>
+                            <dl class="facts">
+                                <div><dt>Amžius</dt><dd>00–00 m.</dd></div>
+                                <div><dt>Programa</dt><dd>Pritaikyta</dd></div>
+                                <div><dt>Kaina</dt><dd>00 €</dd></div>
+                            </dl>
+                            <div class="tcard__actions">
+                                <a class="btn btn--navy" href="#registracija">Registruotis</a>
+                                <a class="link-arrow" href="#treniruotes">Plačiau</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tcard reveal">
+                        <a class="tcard__media" href="#treniruotes" tabindex="-1" aria-hidden="true">
+                            <img src="img/coach-dribble.jpg" alt="" loading="lazy" width="1871" height="1055">
+                            <span class="tcard__num">03</span>
+                        </a>
+                        <div class="tcard__body">
+                            <h3 class="tcard__title"><a href="#treniruotes">Su Dr. Dish mašina</a></h3>
+                            <p class="tcard__lead">Metimo treniruotės</p>
+                            <dl class="facts">
+                                <div><dt>Amžius</dt><dd>00–00 m.</dd></div>
+                                <div><dt>Trukmė</dt><dd>00 min.</dd></div>
+                                <div><dt>Kaina</dt><dd>00 €</dd></div>
+                            </dl>
+                            <div class="tcard__actions">
+                                <a class="btn btn--navy" href="#registracija">Registruotis</a>
+                                <a class="link-arrow" href="#treniruotes">Plačiau</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- STOVYKLOS -->
+
+        <section class="section section--dark tex-dark" id="stovyklos">
+            <div class="container">
+                <header class="section-head reveal">
+                    <div>
+                        <p class="eyebrow eyebrow--lime"><i class="bt" aria-hidden="true"></i>02 — Stovyklos</p>
+                        <h2 class="h2">Stovyklos</h2>
+                    </div>
+                    <a class="link-arrow link-arrow--light" href="#stovyklos">Visos stovyklos</a>
+                </header>
+
+                <div class="grid-4">
+                    <article class="camp reveal">
+                        <img class="camp__img" src="img/coach-hug.jpg" alt="" loading="lazy" width="1871" height="1055">
+                        <div class="camp__body">
+                            <p class="camp__tag">Žiemos stovykla</p>
+                            <h3 class="camp__title"><a href="#stovyklos">Žiema</a></h3>
+                            <div class="dates">
+                                <div class="date"><span class="date__label">I pamaina</span><span class="date__val">00.00 – 00.00</span></div>
+                                <div class="date"><span class="date__label">II pamaina</span><span class="date__val">00.00 – 00.00</span></div>
+                            </div>
+                            <a class="btn btn--lime btn--block camp__cta" href="#registracija">Registruotis</a>
+                        </div>
+                    </article>
+
+                    <article class="camp reveal">
+                        <img class="camp__img camp__img--left" src="img/coach-handshake.jpg" alt="" loading="lazy" width="1871" height="1055">
+                        <div class="camp__body">
+                            <p class="camp__tag">Pavasario stovykla</p>
+                            <h3 class="camp__title"><a href="#stovyklos">Pavasaris</a></h3>
+                            <div class="dates">
+                                <div class="date"><span class="date__label">I pamaina</span><span class="date__val">00.00 – 00.00</span></div>
+                            </div>
+                            <a class="btn btn--lime btn--block camp__cta" href="#registracija">Registruotis</a>
+                        </div>
+                    </article>
+
+                    <article class="camp reveal">
+                        <img class="camp__img camp__img--left" src="img/group-training.jpg" alt="" loading="lazy" width="1871" height="1055">
+                        <div class="camp__body">
+                            <p class="camp__tag">Vasara</p>
+                            <h3 class="camp__title"><a href="#stovyklos">Kaunas</a></h3>
+                            <p class="camp__meta">Dieninė stovykla mieste</p>
+                            <div class="dates">
+                                <div class="date"><span class="date__label">Datos</span><span class="date__val">00.00 – 00.00</span></div>
+                            </div>
+                            <a class="btn btn--lime btn--block camp__cta" href="#registracija">Registruotis</a>
+                        </div>
+                    </article>
+
+                    <article class="camp reveal">
+                        <img class="camp__img" src="img/team-huddle.jpg" alt="" loading="lazy" width="1871" height="1055">
+                        <div class="camp__body">
+                            <p class="camp__tag">Vasara</p>
+                            <h3 class="camp__title"><a href="#stovyklos">Daugai</a></h3>
+                            <p class="camp__meta">Stovykla su nakvyne</p>
+                            <div class="dates">
+                                <div class="date"><span class="date__label">Datos</span><span class="date__val">00.00 – 00.00</span></div>
+                            </div>
+                            <a class="btn btn--lime btn--block camp__cta" href="#registracija">Registruotis</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- APIE DYB -->
+
+        <section class="section section--light" id="apie">
+            <div class="container about">
+                <div class="about__visual reveal">
+                    <div class="frame frame--grey">
+                        <img class="hourglass" src="img/team-huddle.jpg" alt="DYB treniruotės dalyviai sukryžiavę rankas rate" loading="lazy" width="1871" height="1055">
+                    </div>
+                </div>
+                <div class="about__copy reveal">
+                    <p class="eyebrow eyebrow--blue"><i class="bt" aria-hidden="true"></i>03 — Apie DYB</p>
+                    <h2 class="h2">Apie DYB</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    <ul class="topics">
+                        <li><a href="#apie"><span>Istorija</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                        <li><a href="#apie"><span>Misija</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                        <li><a href="#apie"><span>Ugdymo filosofija</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                        <li><a href="#apie"><span>Kuo išsiskiria</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></li>
+                    </ul>
+                    <a class="btn btn--navy" href="#apie">Daugiau apie DYB</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRENERIAI -->
+
+        <section class="section section--dark tex-dark" id="treneriai">
+            <div class="container">
+                <header class="section-head reveal">
+                    <div>
+                        <p class="eyebrow eyebrow--lime"><i class="bt" aria-hidden="true"></i>04 — Treneriai</p>
+                        <h2 class="h2">Treneriai</h2>
+                    </div>
+                    <a class="link-arrow link-arrow--light" href="#treneriai">Visi treneriai</a>
+                </header>
+                <div class="coaches">
+                <p class="coaches__intro muted reveal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                <div class="coaches__list">
+                    <article class="coach reveal">
+                        <div class="coach__media"><img src="img/coach-1.jpg" alt="Treneris" loading="lazy" width="844" height="1055"></div>
+                        <h3 class="coach__name">Vardas Pavardė</h3>
+                        <p class="coach__role">Rolė · kvalifikacija</p>
+                    </article>
+                    <article class="coach reveal">
+                        <div class="coach__media"><img src="img/coach-2.jpg" alt="Treneris" loading="lazy" width="844" height="1055"></div>
+                        <h3 class="coach__name">Vardas Pavardė</h3>
+                        <p class="coach__role">Rolė · kvalifikacija</p>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MERCH -->
+
+        <section class="section section--light" id="merch">
+            <div class="container">
+                <header class="section-head reveal">
+                    <div>
+                        <p class="eyebrow eyebrow--blue"><i class="bt" aria-hidden="true"></i>05 — Merch</p>
+                        <h2 class="h2">Merch</h2>
+                    </div>
+                    <p class="section-head__note">Pirkimas vyksta gamintojo puslapyje</p>
+                </header>
+
+                <div class="grid-3">
+                    <article class="product reveal">
+                        <div class="product__media"><img src="img/merch-tee-emblem.jpg" alt="Balti marškinėliai su DYB Training logotipu" loading="lazy" width="960" height="960"></div>
+                        <div class="product__row">
+                            <h3 class="product__name">Produkto pavadinimas</h3>
+                            <span class="product__price">00 €</span>
+                        </div>
+                        <a class="link-arrow" href="#" target="_blank" rel="noopener"><span>Pirkti <span class="sm-hide">pas gamintoją</span></span></a>
+                    </article>
+                    <article class="product reveal">
+                        <div class="product__media"><img src="img/merch-tee-logo.jpg" alt="Balti marškinėliai su DYB Training užrašu" loading="lazy" width="960" height="960"></div>
+                        <div class="product__row">
+                            <h3 class="product__name">Produkto pavadinimas</h3>
+                            <span class="product__price">00 €</span>
+                        </div>
+                        <a class="link-arrow" href="#" target="_blank" rel="noopener"><span>Pirkti <span class="sm-hide">pas gamintoją</span></span></a>
+                    </article>
+                    <a class="product-all reveal" href="#merch">
+                        <span class="product-all__icon"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 337.13 332.56" fill="currentColor"><path d="M168.35 164.66L168.35 164.62C167.74 164.5 165.41 164.02 161.88 162.58L161.88 164.15C165.18 164.71 167.73 164.66 168.35 164.66 M281.73 288.86C281.31 288.63 277.37 283.53 274.1 281.1C270.86 278.7 270.03 275.85 270.03 275.85C270.03 275.85 263.52 272.92 262.46 272.2C261.39 271.44 258.77 269.99 258.77 269.99L257.01 268.9C244.97 274.64 232.07 279.24 218.5 282.52C220.35 286.97 223 290.64 226.43 293.49C238.3 303.34 260.34 301.7 266.97 300.94 M181.12 51.99C181.12 51.99 183.44 50.81 183.9 52.33C183.94 52.49 183.97 52.68 184.01 52.9C183.86 54.73 183.56 57.24 182.76 59.9C182.64 60.36 182.49 60.81 182.34 61.27C181.58 63.4 180.78 65.07 180.1 66.33C179.75 67.05 179.37 67.73 179.03 68.42C180.55 66.78 182.36 66.52 184.37 61.47C185.74 61.39 187.57 61.31 189.58 61.31C193.84 61.24 194.91 61.2 195.52 64.36C196.16 67.47 197.74 66.97 198.31 67.66C198.92 68.34 206.26 66.82 213.22 73.67C216.9 77.24 218.81 81.04 219.76 83.9C219.83 84.16 220.71 86.98 220.78 89.67C220.86 92.49 218.82 96.69 218.82 96.69C218.82 96.69 221.72 93.13 222.33 89.06C224.16 90.13 227.51 92.6 231.66 98.31C237.48 106.41 237.63 106.71 239.8 107.97C241.93 109.22 250.06 110.13 257.86 119.37C261.99 124.29 266.48 128.21 270.28 131.15C273.68 125.21 276.37 119.15 278.03 112.82C295.38 46.41 251.15 20.68 250.7 20.48C228.25 9.75 202.95 1.16 176.64 0L176.64 33.92C180.42 37.79 181.28 42.95 181.31 45.22C181.39 47.77 181.12 51.99 181.12 51.99 M38.68 135.53C37.19 135.65 34.15 135.72 32.59 134.81C31.03 133.86 23.92 133.9 22.9 133.9C21.83 133.9 20.73 134.01 20.43 133.86C20.08 133.71 19.63 133.02 19.63 133.02C19.63 133.02 18.14 133.71 18.07 134.74C17.95 135.8 18.07 136.75 17.57 137.25C17.12 137.78 17.12 137.78 16.62 137.93C16.17 138.08 15.79 138.08 15.44 137.85C15.06 137.59 14.83 137.36 14.83 137.36C14.83 137.36 14.34 138.27 13.92 138.35C13.5 138.46 11.38 138.46 11.76 135.57C12.14 132.68 13.43 132.26 13.81 130.29C14.19 128.27 15.06 123.94 15.6 122.95C16.13 121.92 17 121.16 17.92 121.31C18.79 121.46 19.85 120.55 20.84 120.25C21.83 119.94 27.54 118.27 31.49 120.32C35.41 122.34 38.22 123.4 39.63 123.97C41.04 124.54 40.92 125.04 41.87 124.66C42.18 124.54 44.54 123.36 47.78 121.7C47.22 120.06 46.71 118.4 46.25 116.72C39.49 92.02 39.78 72.62 43.19 57.73C24.19 79.75 8.17 106.44 5.47 136.57C0 197.57 55.36 251.6 123.13 268.09C123.23 266.43 123.27 264.72 123.24 262.95C122.71 224.32 101.49 198.36 80.97 173.25C69.59 159.32 58.68 145.97 51.6 131.02C51.22 131.09 50.87 131.17 50.54 131.24C46.66 132.07 40.16 135.42 38.68 135.53 M273.93 259.73C275.88 261.38 278.13 263.21 278.73 263.53C279.8 264.1 286.34 269.69 286.34 269.69C286.34 269.69 288.85 270.41 290.03 271.36C291.17 272.31 291.17 272.09 293.37 273.04C294.56 273.55 295.26 273.87 296 274.04C314.07 252.83 326.92 227.03 332.53 198.67C319.73 223.13 299.36 244.18 273.93 259.73 M160.97 193.26C161.16 191.58 161.69 187.06 161.08 185.61C160.44 184.13 159.3 182.76 158.76 181.51C158.23 180.25 157.39 179.05 156.56 178.35C154.71 176.8 154.67 175.81 154.44 174.97C154.25 174.09 154.4 172.32 154.7 171.06C155.01 169.81 157.62 166.37 157.62 166.37L157.62 166.37C157.62 166.37 157.62 166.37 157.62 166.37C158.14 165.93 158.55 163.46 160.08 163.8C160.7 163.94 161.3 164.06 161.88 164.15L161.88 162.58C161.21 162.31 160.5 162 159.75 161.66C148.12 156.37 143.24 137.27 139.66 126.2C136.51 116.43 132.97 114.08 130.27 111.04C130.23 111 130.19 110.96 130.12 110.92C131.1 110.77 130.97 110.82 132.07 110.78L132.11 110.78C132.56 110.74 133.06 110.74 133.51 110.74C135.8 110.78 137.62 111.01 139.03 111.27C139.83 111.35 140.62 111.5 141.35 111.62C138.38 110.25 130.09 107.02 121.61 109.3C121.61 109.3 101.46 116.41 94.12 119.14C86.74 121.88 81.91 126.18 71.84 127.78C70.06 128.05 68.37 128.31 66.77 128.56C73.17 140.59 82.67 152 92.41 163.91C113.5 189.71 137.41 218.97 138.02 262.75C138.05 265.63 137.94 268.38 137.7 271.03C145.58 272.31 153.65 273.11 161.88 273.42L161.88 200.11C160.57 197.04 160.79 194.57 160.97 193.26 M84.5 102.79C85.94 102.49 89.9 102.18 92.18 102.03C90.89 104.58 89.24 109.14 88.86 110.47C89.24 109.83 90.54 106.86 91 106.22C91.72 104.96 92.75 103.44 94.2 101.69C94.27 101.62 94.39 101.5 94.46 101.39C95.98 100.09 100.17 96.71 104.2 94.69C108.15 92.72 109.91 92.05 110.67 91.79C110.14 93.16 109.56 96.33 109.33 97.13C109.71 96.48 110.81 93.63 111.23 92.98C111.99 91.73 113.02 90.21 114.46 88.5C114.77 88.12 115.07 87.74 115.41 87.39C117.39 85.3 119.48 83.67 121 82.64C124.77 80.4 130.05 78.95 132.64 78.84C135.3 78.72 137.2 76.86 137.96 76.18C138.76 75.49 140.55 73.06 142.34 72.03C144.12 70.97 145.26 70.55 146.63 69.83C147.2 69.52 147.66 69.26 148.04 68.99C150.55 75.95 155.91 80.7 158.15 82.49C157.66 81.88 157.2 81.23 156.79 80.55C155.91 79.41 154.88 77.89 153.82 75.87C153.63 75.45 153.4 75.04 153.21 74.58C151.84 71.61 151.12 68.72 150.78 66.93C150.78 66.93 150.59 64.31 150.59 63.89C150.59 63.48 149.79 62.9 149.64 61.99C149.48 61.12 148.95 59.86 149.07 58.57C149.14 57.32 149.29 55.72 148.95 54.65C148.57 53.59 148.19 52.22 148.19 51.73C148.19 51.19 145.76 44.31 150.47 36.44C152.73 32.67 157.23 30.68 161.88 30.06L161.88 0C135.57 1.16 111.44 9.62 89.05 20.48C87.27 21.34 44.09 48.87 60.5 112.83C60.65 113.44 60.82 114.06 61 114.67C64.51 112.73 67.6 110.92 69.29 109.71C74.84 105.72 82.41 103.21 84.5 102.79 M315.74 171.62C315.74 185.13 304.78 196.09 291.27 196.09C277.75 196.09 266.8 185.13 266.8 171.62C266.8 158.1 277.75 147.15 291.27 147.15C304.78 147.15 315.74 158.1 315.74 171.62M288.09 140.52C288.77 140.48 289.8 141.05 290.29 141.66C290.52 142 292.08 143.75 293.56 145.34C292.31 145.15 291.02 145.08 289.72 145.08C285.48 145.08 281.5 146.11 278.01 147.95C277.01 148.48 276.17 149.26 275.52 150.18C270.06 157.94 263.88 165.5 257.55 173.25C256.07 175.06 254.59 176.87 253.11 178.69C253.79 179.81 254.54 181 255.23 181.96C257.1 184.59 259.42 188.5 259.72 191.62C260.06 194.78 262.04 201.09 263.6 202.46C265.2 203.83 266.57 206.95 267.29 209.49C268.01 212 272.12 217.14 272.92 219.99C273.68 222.8 272.84 228.85 267.14 230.56C261.39 232.31 254.74 230.52 254.74 230.52C254.74 230.52 251.58 228.77 251.32 228.58C251.09 228.35 250.14 225.54 250.14 225.54L247.55 226.61L246.68 227.02C246.68 227.02 246.87 228.62 246.87 229.15C246.87 229.68 246.68 230.3 246.87 230.94C247.1 231.59 247.55 234.52 247.55 234.82C247.55 235.12 246.68 235.77 246.68 235.77C246.68 235.77 243.37 233.83 242.31 232.84C241.24 231.85 239.57 229.15 239.38 228.62C239.15 228.13 237.78 225.66 237.1 224.44C236.66 223.66 235.25 222.22 234.29 221.29C233.82 220.83 233.9 220.06 234.45 219.71C235.63 218.96 237.41 217.86 237.86 217.71C238.54 217.52 239.3 217.02 239.3 217.02L239.16 216.29C239.06 215.73 238.75 215.24 238.3 214.89C236.61 213.59 232.33 210.31 231.7 209.95C231.47 209.81 231.16 209.72 230.82 209.67C229.7 211.58 228.62 213.53 227.59 215.51C228.45 216.55 231.98 219.94 233.14 221.81C234.28 223.72 237.06 225.96 237.59 227.63C238.12 229.31 240.1 232.99 242.61 234.93C245.16 236.87 250.18 239.19 252.12 240.48C253.9 241.71 260.07 245.13 263.95 248.69C307.41 223.63 337.13 182.04 333.05 136.57C330.35 106.44 314.33 79.75 295.33 57.72C298.74 72.62 299.03 92.02 292.27 116.72C290.05 124.84 286.6 132.37 282.36 139.61C282.73 139.86 283.02 140.03 283.3 140.13C284.17 140.52 287.4 140.55 288.09 140.52 M121.52 304.86C113.68 311.36 104.28 314.35 95.74 315.58C115.84 325.52 138.22 331.52 161.88 332.56L161.88 288.19C152.62 287.88 143.55 286.97 134.71 285.5C131.99 293.34 127.59 299.82 121.52 304.86 M120.02 282.52C68.9 270.16 27.13 239.05 5.99 198.67C14.28 240.57 38.35 276.86 71.73 301.08C79.8 301.87 100.82 302.88 112.14 293.45C115.55 290.6 118.18 286.95 120.02 282.52 M217.47 243.17C216.14 249.4 215.37 255.97 215.28 262.95C215.25 264.72 215.29 266.43 215.39 268.09C224.34 265.91 233.08 263.08 241.49 259.66C238.08 257.68 235 255.94 233.6 255.28C229.73 253.47 220.36 245.92 217.47 243.17 M176.65 332.56L176.65 332.56C176.65 332.56 176.64 332.56 176.64 332.56L176.65 332.56 M193.52 226.53C192.64 225.92 191.12 224.44 190.13 223.41C192.72 221.74 196.43 218.6 197.45 217.58C196.81 217.96 194.35 219.72 193.63 220.1C192.38 220.83 190.74 221.63 188.61 222.42C188.16 222.61 187.74 222.77 187.28 222.92C187.09 222.95 186.94 222.99 186.79 223.07C184.36 223.63 180.41 224.4 176.64 224.47L176.64 273.42C184.87 273.11 192.95 272.31 200.81 271.03C200.58 268.38 200.46 265.62 200.51 262.75C200.66 251.86 202.25 241.86 204.88 232.59C203.7 232.28 202.65 231.94 201.77 231.63C198.16 229.95 194.58 227.29 193.52 226.53 M217 304.86C210.93 299.82 206.53 293.34 203.81 285.5C194.97 286.97 185.89 287.88 176.65 288.19L176.65 332.56C200.3 331.52 222.68 325.52 242.78 315.58C234.24 314.35 224.84 311.36 217 304.86 M247.59 135.27C236.26 130.97 219.79 112.61 219.79 112.61L213.18 106.1C208.16 106.83 207.52 106.78 207.44 106.76C209.28 107.53 209.55 106.84 213.19 108.08C213.94 108.34 214.52 108.91 214.8 109.65C215.55 111.66 216.36 114.47 216.71 117.85C216.74 118.15 216.72 118.45 216.78 118.74C217.47 122.04 220.46 130 225.96 132.2C227.88 132.97 230.74 137.09 232.88 140.17C233.73 141.4 234.05 142.93 233.78 144.4C233.15 147.77 231.65 149.98 230.36 152.23C230.36 152.23 234.47 147.75 236.53 144.16C242.47 150.37 245.9 154.34 247.55 156.35C248.41 157.39 249.01 158.61 249.32 159.92L249.33 159.96C254.1 154.12 258.73 148.36 262.88 142.56C257.88 139.86 252.26 137.04 247.59 135.27 M207.44 106.76C207.44 106.76 207.44 106.76 207.43 106.75C207.43 106.75 207.43 106.76 207.44 106.76"/></svg></span>
+                        <span class="product-all__label">Visa atributika</span>
+                        <svg class="product-all__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- REGISTRACIJA -->
+
+        <section class="cta tex-grey" id="registracija">
+            <div class="container">
+                <div class="cta__panel tex-dark reveal">
+                    <div class="cta__type" aria-hidden="true">DYB</div>
+                    <div class="cta__head">
+                        <p class="eyebrow eyebrow--lime"><i class="bt" aria-hidden="true"></i>#DiscoverYourBest</p>
+                        <h2 class="h2">Registracija</h2>
+                    </div>
+                    <ol class="steps">
+                        <li><span class="steps__n">01</span><span class="steps__t">Pasirinkite treniruotę ar stovyklą</span></li>
+                        <li><span class="steps__n">02</span><span class="steps__t">Užpildykite registracijos formą</span></li>
+                        <li><span class="steps__n">03</span><span class="steps__t">Gaukite patvirtinimą el. paštu</span></li>
+                    </ol>
+                    <div class="cta__actions">
+                        <a class="btn btn--lime" href="#treniruotes">Treniruotės</a>
+                        <a class="btn btn--ghost" href="#stovyklos">Stovyklos</a>
+                    </div>
+                    <p class="cta__contact">Klausimai? <a href="tel:+37060000000">+370 600 00000</a> <span aria-hidden="true">·</span> <a href="mailto:el.pastas@dybtraining.com">el.pastas@dybtraining.com</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer tex-dark">
+        <div class="container">
+            <div class="footer__top">
+                <a class="footer__logo" href="index.html" aria-label="DYB Training – pradžia"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 450.05 545.3" fill="currentColor"><path d="M220.94 164.66L220.94 164.62C220.33 164.5 218.01 164.02 214.47 162.58L214.47 164.15C217.78 164.71 220.32 164.66 220.94 164.66 M334.33 288.86C333.91 288.63 329.96 283.53 326.69 281.1C323.46 278.7 322.62 275.85 322.62 275.85C322.62 275.85 316.12 272.92 315.06 272.2C313.99 271.44 311.37 269.99 311.37 269.99L309.61 268.9C297.57 274.64 284.66 279.24 271.1 282.52C272.95 286.97 275.59 290.64 279.03 293.49C290.9 303.34 312.94 301.7 319.57 300.94 M233.72 51.99C233.72 51.99 236.04 50.81 236.5 52.33C236.53 52.49 236.57 52.68 236.61 52.9C236.46 54.73 236.15 57.24 235.35 59.9C235.24 60.36 235.09 60.81 234.94 61.27C234.18 63.4 233.38 65.07 232.69 66.33C232.35 67.05 231.97 67.73 231.63 68.42C233.15 66.78 234.96 66.52 236.97 61.47C238.34 61.39 240.17 61.31 242.18 61.31C246.44 61.24 247.5 61.2 248.11 64.36C248.76 67.47 250.34 66.97 250.91 67.66C251.52 68.34 258.85 66.82 265.81 73.67C269.5 77.24 271.4 81.04 272.35 83.9C272.43 84.16 273.3 86.98 273.38 89.67C273.46 92.49 271.42 96.69 271.42 96.69C271.42 96.69 274.32 93.13 274.93 89.06C276.76 90.13 280.11 92.6 284.26 98.31C290.07 106.41 290.23 106.71 292.39 107.97C294.52 109.22 302.66 110.13 310.46 119.37C314.59 124.29 319.07 128.21 322.88 131.15C326.28 125.21 328.97 119.15 330.63 112.82C347.97 46.41 303.74 20.68 303.3 20.48C280.85 9.75 255.55 1.16 229.24 0L229.24 33.92C233.02 37.79 233.88 42.95 233.91 45.22C233.99 47.77 233.72 51.99 233.72 51.99 M91.27 135.53C89.79 135.65 86.75 135.72 85.19 134.81C83.63 133.86 76.52 133.9 75.49 133.9C74.43 133.9 73.33 134.01 73.02 133.86C72.68 133.71 72.22 133.02 72.22 133.02C72.22 133.02 70.74 133.71 70.66 134.74C70.55 135.8 70.66 136.75 70.17 137.25C69.71 137.78 69.71 137.78 69.22 137.93C68.76 138.08 68.38 138.08 68.04 137.85C67.66 137.59 67.43 137.36 67.43 137.36C67.43 137.36 66.94 138.27 66.52 138.35C66.1 138.46 63.97 138.46 64.35 135.57C64.73 132.68 66.03 132.26 66.41 130.29C66.79 128.27 67.66 123.94 68.19 122.95C68.73 121.92 69.6 121.16 70.51 121.31C71.39 121.46 72.45 120.55 73.44 120.25C74.43 119.94 80.13 118.27 84.09 120.32C88 122.34 90.82 123.4 92.23 123.97C93.63 124.54 93.52 125.04 94.47 124.66C94.77 124.54 97.13 123.36 100.38 121.7C99.82 120.06 99.31 118.4 98.84 116.72C92.09 92.02 92.38 72.62 95.78 57.73C76.79 79.75 60.77 106.44 58.07 136.57C52.6 197.57 107.95 251.6 175.73 268.09C175.82 266.43 175.87 264.72 175.84 262.95C175.31 224.32 154.09 198.36 133.57 173.25C122.18 159.32 111.28 145.97 104.19 131.02C103.82 131.09 103.47 131.17 103.14 131.24C99.26 132.07 92.76 135.42 91.27 135.53 M326.52 259.73C328.47 261.38 330.73 263.21 331.33 263.53C332.4 264.1 338.94 269.69 338.94 269.69C338.94 269.69 341.45 270.41 342.63 271.36C343.77 272.31 343.77 272.09 345.97 273.04C347.16 273.55 347.86 273.87 348.6 274.04C366.67 252.83 379.52 227.03 385.13 198.67C372.32 223.13 351.95 244.18 326.52 259.73 M213.57 193.26C213.76 191.58 214.29 187.06 213.68 185.61C213.03 184.13 211.89 182.76 211.36 181.51C210.83 180.25 209.99 179.05 209.15 178.35C207.31 176.8 207.27 175.81 207.04 174.97C206.85 174.09 207 172.32 207.3 171.06C207.61 169.81 210.22 166.37 210.22 166.37L210.22 166.37C210.22 166.37 210.22 166.37 210.22 166.37C210.74 165.93 211.15 163.46 212.68 163.8C213.3 163.94 213.9 164.06 214.47 164.15L214.47 162.58C213.81 162.31 213.1 162 212.35 161.66C200.71 156.37 195.84 137.27 192.26 126.2C189.1 116.43 185.57 114.08 182.87 111.04C182.83 111 182.79 110.96 182.71 110.92C183.7 110.77 183.56 110.82 184.67 110.78L184.7 110.78C185.16 110.74 185.66 110.74 186.11 110.74C188.39 110.78 190.22 111.01 191.63 111.27C192.42 111.35 193.22 111.5 193.94 111.62C190.98 110.25 182.69 107.02 174.21 109.3C174.21 109.3 154.06 116.41 146.72 119.14C139.34 121.88 134.51 126.18 124.43 127.78C122.66 128.05 120.97 128.31 119.36 128.56C125.77 140.59 135.27 152 145.01 163.91C166.1 189.71 190.01 218.97 190.61 262.75C190.65 265.63 190.54 268.38 190.3 271.03C198.18 272.31 206.25 273.11 214.47 273.42L214.47 200.11C213.16 197.04 213.39 194.57 213.57 193.26 M137.1 102.79C138.54 102.49 142.5 102.18 144.78 102.03C143.48 104.58 141.84 109.14 141.46 110.47C141.84 109.83 143.14 106.86 143.6 106.22C144.32 104.96 145.35 103.44 146.79 101.69C146.87 101.62 146.98 101.5 147.06 101.39C148.58 100.09 152.76 96.71 156.79 94.69C160.75 92.72 162.51 92.05 163.27 91.79C162.74 93.16 162.16 96.33 161.93 97.13C162.31 96.48 163.41 93.63 163.83 92.98C164.59 91.73 165.62 90.21 167.06 88.5C167.36 88.12 167.67 87.74 168.01 87.39C169.99 85.3 172.08 83.67 173.6 82.64C177.37 80.4 182.65 78.95 185.24 78.84C187.9 78.72 189.8 76.86 190.56 76.18C191.36 75.49 193.15 73.06 194.93 72.03C196.72 70.97 197.86 70.55 199.23 69.83C199.8 69.52 200.26 69.26 200.64 68.99C203.15 75.95 208.51 80.7 210.75 82.49C210.26 81.88 209.8 81.23 209.38 80.55C208.51 79.41 207.48 77.89 206.42 75.87C206.23 75.45 206 75.04 205.81 74.58C204.44 71.61 203.72 68.72 203.38 66.93C203.38 66.93 203.19 64.31 203.19 63.89C203.19 63.48 202.39 62.9 202.23 61.99C202.08 61.12 201.55 59.86 201.66 58.57C201.74 57.32 201.89 55.72 201.55 54.65C201.17 53.59 200.79 52.22 200.79 51.73C200.79 51.19 198.36 44.31 203.07 36.44C205.33 32.67 209.82 30.68 214.47 30.06L214.47 0C188.17 1.16 164.03 9.62 141.65 20.48C139.87 21.34 96.69 48.87 113.09 112.83C113.25 113.44 113.42 114.06 113.6 114.67C117.11 112.73 120.2 110.92 121.89 109.71C127.44 105.72 135 103.21 137.1 102.79 M368.34 171.62C368.34 185.13 357.38 196.09 343.87 196.09C330.35 196.09 319.4 185.13 319.4 171.62C319.4 158.1 330.35 147.15 343.87 147.15C357.38 147.15 368.34 158.1 368.34 171.62M340.69 140.52C341.37 140.48 342.4 141.05 342.89 141.66C343.12 142 344.68 143.75 346.16 145.34C344.91 145.15 343.61 145.08 342.32 145.08C338.08 145.08 334.1 146.11 330.61 147.95C329.61 148.48 328.77 149.26 328.11 150.18C322.66 157.94 316.48 165.5 310.15 173.25C308.67 175.06 307.19 176.87 305.71 178.69C306.38 179.81 307.14 181 307.83 181.96C309.69 184.59 312.01 188.5 312.32 191.62C312.66 194.78 314.64 201.09 316.2 202.46C317.79 203.83 319.16 206.95 319.89 209.49C320.61 212 324.72 217.14 325.51 219.99C326.27 222.8 325.44 228.85 319.73 230.56C313.99 232.31 307.34 230.52 307.34 230.52C307.34 230.52 304.18 228.77 303.91 228.58C303.69 228.35 302.74 225.54 302.74 225.54L300.15 226.61L299.28 227.02C299.28 227.02 299.47 228.62 299.47 229.15C299.47 229.68 299.28 230.3 299.47 230.94C299.69 231.59 300.15 234.52 300.15 234.82C300.15 235.12 299.28 235.77 299.28 235.77C299.28 235.77 295.97 233.83 294.9 232.84C293.84 231.85 292.17 229.15 291.98 228.62C291.75 228.13 290.38 225.66 289.69 224.44C289.25 223.66 287.84 222.22 286.89 221.29C286.42 220.83 286.5 220.06 287.05 219.71C288.23 218.96 290.01 217.86 290.45 217.71C291.14 217.52 291.9 217.02 291.9 217.02L291.76 216.29C291.65 215.73 291.35 215.24 290.9 214.89C289.21 213.59 284.93 210.31 284.29 209.95C284.07 209.81 283.76 209.72 283.42 209.67C282.3 211.58 281.22 213.53 280.19 215.51C281.05 216.55 284.58 219.94 285.74 221.81C286.88 223.72 289.66 225.96 290.19 227.63C290.72 229.31 292.7 232.99 295.21 234.93C297.76 236.87 302.78 239.19 304.71 240.48C306.5 241.71 312.67 245.13 316.55 248.69C360.01 223.63 389.73 182.04 385.65 136.57C382.94 106.44 366.93 79.75 347.93 57.72C351.34 72.62 351.63 92.02 344.87 116.72C342.65 124.84 339.2 132.37 334.96 139.61C335.33 139.86 335.62 140.03 335.9 140.13C336.77 140.52 340 140.55 340.69 140.52 M174.11 304.86C166.27 311.36 156.88 314.35 148.34 315.58C168.44 325.52 190.82 331.52 214.47 332.56L214.47 288.19C205.22 287.88 196.15 286.97 187.31 285.5C184.58 293.34 180.19 299.82 174.11 304.86 M172.62 282.52C121.5 270.16 79.73 239.05 58.58 198.67C66.88 240.57 90.95 276.86 124.33 301.08C132.4 301.87 153.42 302.88 164.74 293.45C168.15 290.6 170.77 286.95 172.62 282.52 M270.06 243.17C268.74 249.4 267.97 255.97 267.87 262.95C267.84 264.72 267.88 266.43 267.99 268.09C276.94 265.91 285.67 263.08 294.08 259.66C290.67 257.68 287.6 255.94 286.2 255.28C282.33 253.47 272.96 245.92 270.06 243.17 M229.25 332.56L229.25 332.56C229.24 332.56 229.24 332.56 229.24 332.56L229.25 332.56 M246.12 226.53C245.24 225.92 243.72 224.44 242.73 223.41C245.32 221.74 249.03 218.6 250.05 217.58C249.41 217.96 246.95 219.72 246.23 220.1C244.97 220.83 243.34 221.63 241.21 222.42C240.76 222.61 240.34 222.77 239.88 222.92C239.69 222.95 239.54 222.99 239.39 223.07C236.96 223.63 233.01 224.4 229.24 224.47L229.24 273.42C237.47 273.11 245.54 272.31 253.41 271.03C253.18 268.38 253.06 265.62 253.11 262.75C253.25 251.86 254.85 241.86 257.48 232.59C256.3 232.28 255.24 231.94 254.37 231.63C250.76 229.95 247.18 227.29 246.12 226.53 M269.6 304.86C263.53 299.82 259.13 293.34 256.4 285.5C247.57 286.97 238.49 287.88 229.25 288.19L229.25 332.56C252.9 331.52 275.28 325.52 295.38 315.58C286.84 314.35 277.44 311.36 269.6 304.86 M21.26 545.29L21.26 504.11L0 504.11L0 498.89L47.84 498.89L47.84 504.11L26.64 504.11L26.64 545.29L21.26 545.29 M106.25 545.29L90.63 527.25L97.67 527.25L113.36 545.23L113.36 545.29L106.25 545.29M73.82 522.74L105.71 522.74C106.42 522.74 107.03 522.5 107.54 522.03C108.05 521.56 108.31 520.98 108.31 520.29L108.31 506.69C108.31 506.01 108.05 505.41 107.54 504.92C107.03 504.43 106.42 504.18 105.71 504.18L73.82 504.18C73.11 504.18 72.5 504.43 71.99 504.92C71.48 505.41 71.23 506.01 71.23 506.69L71.23 520.29C71.23 520.98 71.48 521.56 71.99 522.03C72.5 522.5 73.11 522.74 73.82 522.74M65.85 545.29L65.85 498.96L105.71 498.96C107.18 498.96 108.52 499.31 109.73 500.02C110.95 500.73 111.92 501.67 112.63 502.83C113.33 503.99 113.69 505.27 113.69 506.69L113.69 520.29C113.69 521.71 113.33 523 112.63 524.16C111.92 525.32 110.95 526.25 109.73 526.96C108.52 527.67 107.18 528.02 105.71 528.02L71.23 528.02L71.23 545.29L65.85 545.29 M176.28 523.13L176.28 506.63C176.28 505.94 176.03 505.35 175.52 504.86C175.01 504.36 174.4 504.12 173.69 504.12L141.79 504.12C141.09 504.12 140.48 504.36 139.97 504.86C139.46 505.35 139.2 505.94 139.2 506.63L139.2 523.13L176.28 523.13M133.82 506.63C133.82 505.21 134.18 503.91 134.88 502.73C135.59 501.55 136.56 500.61 137.78 499.93C138.99 499.24 140.33 498.9 141.79 498.9L173.69 498.9C175.15 498.9 176.49 499.24 177.71 499.93C178.93 500.61 179.89 501.55 180.6 502.73C181.31 503.91 181.66 505.21 181.66 506.63L181.66 545.3L176.28 545.3L176.28 528.35L139.2 528.35L139.2 545.3L133.82 545.3L133.82 506.63 M202.93 498.89H208.37V545.29H202.93Z M229.5 545.29L229.5 498.89L236.88 498.89L271.96 539.37L271.96 498.89L277.34 498.89L277.34 545.29L269.97 545.29L234.89 504.82L234.89 545.29L229.5 545.29 M298.47 498.89H303.92V545.29H298.47Z M325.05 545.29L325.05 498.89L332.43 498.89L367.51 539.37L367.51 498.89L372.89 498.89L372.89 545.29L365.52 545.29L330.43 504.82L330.43 545.29L325.05 545.29 M401.33 545.29C399.87 545.29 398.53 544.95 397.31 544.26C396.09 543.58 395.13 542.64 394.42 541.46C393.71 540.28 393.36 538.98 393.36 537.56L393.36 506.63C393.36 505.21 393.71 503.91 394.42 502.73C395.13 501.55 396.09 500.61 397.31 499.93C398.53 499.24 399.87 498.89 401.33 498.89L433.22 498.89C434.69 498.89 436.03 499.24 437.24 499.93C438.46 500.61 439.43 501.55 440.13 502.73C440.84 503.91 441.2 505.21 441.2 506.63L441.2 508.5L435.82 508.5L435.82 506.63C435.82 505.94 435.56 505.35 435.05 504.86C434.54 504.36 433.93 504.11 433.22 504.11L401.33 504.11C400.62 504.11 400.01 504.36 399.5 504.86C398.99 505.35 398.74 505.94 398.74 506.63L398.74 537.56C398.74 538.25 398.99 538.84 399.5 539.33C400.01 539.83 400.62 540.08 401.33 540.08L433.22 540.08C433.93 540.08 434.54 539.83 435.05 539.33C435.56 538.84 435.82 538.25 435.82 537.56L435.82 526.09L423.99 526.09L423.99 520.81L441.2 520.81L441.2 537.56C441.2 538.98 440.84 540.28 440.13 541.46C439.43 542.64 438.46 543.58 437.24 544.26C436.03 544.95 434.69 545.29 433.22 545.29L401.33 545.29 M122.79 364.7C111.79 353.29 95.53 345.39 74.26 340.41C49.21 334.57 24.41 327.26 0 318.47L0 351.59L30.47 359.28C30.47 359.27 30.47 359.26 30.47 359.26C42.85 362.25 55.29 364.95 67.78 367.36C79.94 369.71 89.23 374.33 95.57 381.27C101.91 388.22 105.16 398.08 105.29 411.18C105.42 424.29 102.38 433.59 96.15 439.29C89.94 444.97 80.71 447.68 68.5 447.07C55.96 446.44 43.43 445.72 30.91 444.94C30.79 421.25 30.67 397.56 30.55 373.88L0 367.89L0 475.62L75.53 475.62C96.91 475.59 112.96 470.43 123.73 460.73C134.49 450.99 139.79 435.54 139.6 413.89C139.41 392.22 133.8 376.13 122.79 364.7 M217.61 408.24C205.03 391.31 192.37 374.12 179.66 356.19C166.88 355.32 154.11 354.07 141.38 352.46C161.69 381.8 181.95 408.56 202.01 434.54C202.05 448.23 202.09 461.93 202.13 475.62L233.21 475.62C233.22 461.86 233.23 448.1 233.25 434.33C253.27 408.7 273.49 382.57 293.81 354.17C281.22 355.48 268.6 356.43 255.97 357.02C243.11 374.56 230.31 391.48 217.61 408.24 M412.31 443.84C409.71 446.78 405.61 448.37 400 448.66C381.42 449.62 362.82 450.43 344.19 451.08C344.29 440.86 344.39 430.63 344.5 420.4C363.14 418.93 381.73 417.11 400.25 414.95C405.84 414.29 409.91 415.16 412.47 417.63C415.02 420.11 416.28 424.37 416.25 430.38C416.22 436.39 414.9 440.9 412.31 443.84M444.91 404.47C441.49 399.07 436.85 395.88 430.98 394.79C430.98 394.44 430.99 394.09 430.99 393.73C440.9 388.1 445.83 376.68 445.84 360.07C445.85 346.68 442.69 337.58 436.36 333.04C430.02 328.46 420.52 328.45 407.7 332.13C376.87 340.95 345.55 347.49 314 351.76C313.92 359.92 313.85 368.08 313.77 376.24L344.99 371.69C344.99 371.68 344.99 371.68 344.99 371.68C362.99 369.01 380.9 365.73 398.69 361.84C403.49 360.79 407.02 361.14 409.29 362.98C411.56 364.81 412.68 368.32 412.65 373.47C412.62 378.75 411.48 382.8 409.23 385.55C406.97 388.31 403.39 390.08 398.47 390.88C380.63 393.77 362.71 396.22 344.72 398.21C344.76 394.05 344.81 389.9 344.85 385.74L313.65 389.79C313.39 418.4 313.13 447.01 312.86 475.62L409.06 475.62C423.38 475.64 433.81 472.14 440.31 464.64C446.82 457.18 450.05 445.49 450.04 430.06C450.04 418.47 448.33 409.87 444.91 404.47 M300.19 135.27C288.86 130.97 272.39 112.61 272.39 112.61L265.77 106.1C260.76 106.83 260.12 106.78 260.04 106.76C261.87 107.53 262.15 106.84 265.79 108.08C266.53 108.34 267.12 108.91 267.4 109.65C268.15 111.66 268.95 114.47 269.31 117.85C269.34 118.15 269.32 118.45 269.38 118.74C270.07 122.04 273.06 130 278.55 132.2C280.48 132.97 283.34 137.09 285.48 140.17C286.33 141.4 286.65 142.93 286.38 144.4C285.75 147.77 284.24 149.98 282.96 152.23C282.96 152.23 287.07 147.75 289.13 144.16C295.07 150.37 298.49 154.34 300.15 156.35C301 157.39 301.61 158.61 301.92 159.92L301.93 159.96C306.7 154.12 311.33 148.36 315.48 142.56C310.47 139.86 304.86 137.04 300.19 135.27 M260.04 106.76C260.04 106.76 260.03 106.76 260.03 106.75C260.03 106.75 260.03 106.76 260.04 106.76"/></svg></a>
+                <nav class="footer__cols" aria-label="Svetainės žemėlapis">
+                    <div class="footer__col">
+                        <p class="footer__title">Treniruotės</p>
+                        <a href="#treniruotes">Grupinės</a>
+                        <a href="#treniruotes">Individualios</a>
+                        <a href="#treniruotes">Su Dr. Dish mašina</a>
+                    </div>
+                    <div class="footer__col">
+                        <p class="footer__title">Stovyklos</p>
+                        <a href="#stovyklos">Žiemos stovykla</a>
+                        <a href="#stovyklos">Pavasario stovykla</a>
+                        <a href="#stovyklos">Vasara – Kaunas</a>
+                        <a href="#stovyklos">Vasara – Daugai</a>
+                    </div>
+                    <div class="footer__col">
+                        <p class="footer__title">DYB</p>
+                        <a href="#apie">Apie DYB</a>
+                        <a href="#treneriai">Treneriai</a>
+                        <a href="#merch">Merch</a>
+                    </div>
+                    <div class="footer__col">
+                        <p class="footer__title">Kontaktai</p>
+                        <a href="tel:+37060000000">+370 600 00000</a>
+                        <a href="mailto:el.pastas@dybtraining.com">el.pastas@dybtraining.com</a>
+                        <div class="social">
+                            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg></a>
+                            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.87.25-1.46 1.5-1.46h1.55V4.47A20.6 20.6 0 0014.3 4.3c-2.25 0-3.8 1.37-3.8 3.9v2.3H8v3h2.5V21z" fill="currentColor"/></svg></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <span>© 2026 DYB Training</span>
+                <a href="#">Privatumo politika</a>
+                <a href="#">Slapukų nustatymai</a>
+                <span class="footer__url">dybtraining.com</span>
+            </div>
+        </div>
+        <div class="footer__mark" aria-hidden="true"><svg class="logo" aria-hidden="true" focusable="false" viewBox="0 0 469.93 236.84" fill="currentColor"><path d="M239.37 14.71L239.37 14.71C239.37 14.71 239.37 14.71 239.37 14.71L239.37 14.71 M22.2 236.84L22.2 193.84L0 193.84L0 188.39L49.95 188.39L49.95 193.84L27.82 193.84L27.82 236.84L22.2 236.84 M110.94 236.84L94.64 218L101.99 218L118.36 236.78L118.36 236.84L110.94 236.84M77.08 213.29L110.38 213.29C111.12 213.29 111.76 213.05 112.29 212.55C112.82 212.06 113.09 211.45 113.09 210.73L113.09 196.54C113.09 195.82 112.82 195.2 112.29 194.69C111.76 194.17 111.12 193.91 110.38 193.91L77.08 193.91C76.34 193.91 75.7 194.17 75.17 194.69C74.64 195.2 74.38 195.82 74.38 196.54L74.38 210.73C74.38 211.45 74.64 212.06 75.17 212.55C75.7 213.05 76.34 213.29 77.08 213.29M68.76 236.84L68.76 188.46L110.38 188.46C111.91 188.46 113.31 188.83 114.58 189.57C115.85 190.31 116.86 191.29 117.6 192.5C118.34 193.71 118.71 195.06 118.71 196.54L118.71 210.73C118.71 212.21 118.34 213.56 117.6 214.77C116.86 215.98 115.85 216.96 114.58 217.7C113.31 218.44 111.91 218.81 110.38 218.81L74.38 218.81L74.38 236.84L68.76 236.84 M184.07 213.7L184.07 196.47C184.07 195.75 183.8 195.13 183.27 194.62C182.74 194.1 182.1 193.84 181.36 193.84L148.06 193.84C147.32 193.84 146.68 194.1 146.15 194.62C145.62 195.13 145.35 195.75 145.35 196.47L145.35 213.7L184.07 213.7M139.73 196.47C139.73 194.99 140.1 193.63 140.84 192.4C141.58 191.16 142.59 190.19 143.86 189.47C145.13 188.75 146.53 188.39 148.06 188.39L181.36 188.39C182.89 188.39 184.29 188.75 185.56 189.47C186.83 190.19 187.84 191.16 188.58 192.4C189.32 193.63 189.69 194.99 189.69 196.47L189.69 236.84L184.07 236.84L184.07 219.15L145.35 219.15L145.35 236.84L139.73 236.84L139.73 196.47 M211.89 188.39H217.58V236.84H211.89Z M239.64 236.84L239.64 188.39L247.34 188.39L283.97 230.65L283.97 188.39L289.59 188.39L289.59 236.84L281.89 236.84L245.26 194.58L245.26 236.84L239.64 236.84 M311.66 188.39H317.35V236.84H311.66Z M339.41 236.84L339.41 188.39L347.11 188.39L383.74 230.65L383.74 188.39L389.36 188.39L389.36 236.84L381.66 236.84L345.03 194.58L345.03 236.84L339.41 236.84 M419.06 236.84C417.53 236.84 416.13 236.48 414.86 235.77C413.59 235.05 412.58 234.07 411.84 232.84C411.1 231.61 410.73 230.25 410.73 228.77L410.73 196.47C410.73 194.99 411.1 193.63 411.84 192.4C412.58 191.16 413.59 190.19 414.86 189.47C416.13 188.75 417.53 188.39 419.06 188.39L452.36 188.39C453.89 188.39 455.28 188.75 456.56 189.47C457.83 190.19 458.83 191.16 459.58 192.4C460.31 193.63 460.69 194.99 460.69 196.47L460.69 198.42L455.07 198.42L455.07 196.47C455.07 195.75 454.8 195.13 454.27 194.62C453.74 194.1 453.1 193.84 452.36 193.84L419.06 193.84C418.32 193.84 417.68 194.1 417.15 194.62C416.62 195.13 416.35 195.75 416.35 196.47L416.35 228.77C416.35 229.49 416.62 230.1 417.15 230.62C417.68 231.14 418.32 231.39 419.06 231.39L452.36 231.39C453.1 231.39 453.74 231.14 454.27 230.62C454.8 230.1 455.07 229.49 455.07 228.77L455.07 216.79L442.72 216.79L442.72 211.27L460.69 211.27L460.69 228.77C460.69 230.25 460.31 231.61 459.58 232.84C458.83 234.07 457.83 235.05 456.56 235.77C455.28 236.48 453.89 236.84 452.36 236.84L419.06 236.84 M128.21 48.27C116.72 36.35 99.75 28.11 77.54 22.91C51.38 16.81 25.49 9.18 0 0L0 34.58L31.82 42.61C31.82 42.6 31.82 42.59 31.82 42.59C44.74 45.71 57.73 48.53 70.78 51.04C83.48 53.5 93.17 58.33 99.79 65.57C106.41 72.83 109.8 83.12 109.94 96.81C110.08 110.49 106.9 120.2 100.4 126.16C93.91 132.09 84.28 134.91 71.53 134.28C58.43 133.62 45.34 132.87 32.28 132.05C32.15 107.32 32.02 82.59 31.9 57.85L0 51.6L0 164.1L78.87 164.1C101.19 164.06 117.95 158.67 129.19 148.55C140.43 138.37 145.97 122.25 145.77 99.64C145.57 77.01 139.71 60.21 128.21 48.27 M227.22 93.73C214.09 76.06 200.87 58.11 187.6 39.39C174.25 38.48 160.92 37.17 147.62 35.49C168.83 66.13 189.99 94.07 210.94 121.19C210.98 135.5 211.02 149.8 211.06 164.1L243.51 164.1C243.52 149.72 243.54 135.35 243.55 120.98C264.45 94.21 285.57 66.94 306.79 37.28C293.64 38.65 280.47 39.64 267.28 40.25C253.85 58.57 240.49 76.23 227.22 93.73 M430.52 130.9C427.8 133.98 423.52 135.64 417.67 135.94C398.27 136.94 378.84 137.79 359.39 138.47C359.5 127.79 359.6 117.11 359.71 106.44C379.18 104.9 398.59 103 417.93 100.74C423.77 100.06 428.01 100.96 430.68 103.54C433.35 106.12 434.67 110.58 434.64 116.85C434.6 123.13 433.23 127.84 430.52 130.9M464.56 89.8C460.99 84.15 456.15 80.83 450.02 79.69C450.02 79.32 450.02 78.96 450.02 78.59C460.38 72.7 465.52 60.78 465.53 43.44C465.54 29.45 462.24 19.95 455.63 15.22C449.02 10.43 439.09 10.42 425.71 14.26C393.51 23.47 360.81 30.31 327.87 34.76L327.63 60.32L360.23 55.57C360.23 55.56 360.23 55.56 360.23 55.56C379.02 52.77 397.72 49.35 416.3 45.29C421.31 44.19 425 44.56 427.37 46.48C429.74 48.39 430.91 52.06 430.88 57.43C430.84 62.94 429.65 67.17 427.3 70.05C424.95 72.93 421.21 74.78 416.07 75.61C397.44 78.63 378.73 81.18 359.95 83.26L360.08 70.25L327.5 74.47C327.23 104.34 326.96 134.22 326.68 164.1L427.12 164.1C442.08 164.11 452.97 160.45 459.76 152.62C466.55 144.83 469.93 132.63 469.92 116.52C469.92 104.41 468.13 95.44 464.56 89.8"/></svg></div>
+    </footer>
+
+    <!-- MOBILE CTA BAR -->
+
+    <div class="mbar" id="mbar">
+        <a class="btn btn--lime mbar__cta" href="#registracija">Registruotis</a>
+        <a class="mbar__phone" href="tel:+37060000000" aria-label="Skambinti">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z" fill="currentColor"/></svg>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
